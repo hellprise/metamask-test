@@ -1,0 +1,14 @@
+{
+	"extends": "next/core-web-vitals",
+	"plugins": ["perfectionist", "@tanstack/eslint-plugin-query"],
+	"rules": {
+		"perfectionist/sort-jsx-props": [
+			"error",
+			{
+				"type": "line-length",
+				"order": "desc",
+				"groups": ["multiline", "unknown", "shorthand"]
+			}
+		]
+	}
+}
