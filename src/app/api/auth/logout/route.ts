@@ -2,7 +2,7 @@ import { cookies } from "next/headers"
 
 import { COOKIE_KEYS } from "@/shared/constants/common.constants"
 
-export const runtime = "edge"
+// export const runtime = "edge"
 // export const runtime = "nodejs"
 
 export async function POST() {
