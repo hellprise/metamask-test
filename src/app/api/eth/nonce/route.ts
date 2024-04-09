@@ -1,8 +1,8 @@
 // import { cookies } from "next/headers"
 import { NextRequest } from "next/server"
 
-// export const runtime = "edge"
-export const runtime = "nodejs"
+export const runtime = "edge"
+// export const runtime = "nodejs"
 
 export async function POST(request: NextRequest) {
 	// const cookieStore = cookies()

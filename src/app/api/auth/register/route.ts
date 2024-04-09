@@ -6,8 +6,8 @@ import { getMainUrl } from "@/api/api.config"
 import { COOKIE_KEYS } from "@/shared/constants/common.constants"
 import { IUser } from "@/shared/types/user.interface"
 
-// export const runtime = "edge"
-export const runtime = "nodejs"
+export const runtime = "edge"
+// export const runtime = "nodejs"
 
 export async function POST(request: NextRequest, response: NextResponse) {
 	const cookieStore = cookies()
