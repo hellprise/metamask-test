@@ -7,6 +7,9 @@ import { COOKIE_KEYS } from "@/shared/constants/common.constants"
 import { IMetamaskLoginResponse } from "@/shared/types/auth.interface"
 import { IUser } from "@/shared/types/user.interface"
 
+// export const runtime = "edge"
+export const runtime = "nodejs"
+
 export async function POST(request: NextRequest) {
 	const cookieStore = cookies()
 
